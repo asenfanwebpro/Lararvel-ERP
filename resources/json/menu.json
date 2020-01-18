@@ -1,0 +1,27 @@
+{"menu": [
+    
+    {"url":"/", "name":"Dashboard", "i18n":"nav.content_layout", "icon":"feather icon-layout"},
+
+    {"url":"#", "name":"Utenti", "icon":"feather icon-user",
+        "submenu": [
+            {"url":"/utenti", "name":"Utenti", "i18n":""},
+            {"url":"/qualifiche-dipendenti", "name":"Qualifiche Utenti", "i18n":""},
+            {"url":"/ruoli", "name":"Ruoli", "i18n":""},
+            {"url":"/permessi", "name":"Permessi", "i18n":""},
+            {"url":"/contratti", "name":"Contratti", "i18n":""},
+            {"url":"/codici-export", "name":"Codici-Export", "i18n":""}
+        ]
+    },
+    
+    {"url":"#", "name":"Societa", "icon":"feather icon-briefcase",
+        "submenu": [
+            {"url":"/societa", "name":"Societa", "i18n":""},
+            {"url":"/dipartimenti", "name":"Dipartimenti", "i18n":""},
+            {"url":"/uffici", "name":"Uffici", "i18n":""},
+            {"url":"/qualifiche", "name":"Qualifiche", "i18n":""}
+        ]
+    },
+    
+    {"url":"https://pixinvent.com/demo/vuesax-html-admin-dashboard-template/documentation/documentation-laravel.html","name":"Documentation","slug":"documentation","icon":"feather icon-folder"}
+]
+}
