@@ -1,0 +1,19 @@
+composer require fzaninotto/faker
+composer require psr/log
+composer require yoeunes/toastr
+composer require barryvdh/laravel-dompdf
+
+
+php artisan clear-compiled 
+composer dump-autoload -o
+php artisan optimize
+
+
+
+AppServiceProvider
+use Illuminate\Support\Facades\Schema;
+
+public function boot()
+{
+    Schema::defaultStringLength(191);
+}
